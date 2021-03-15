@@ -1,2 +1,2 @@
-# img-classification-cifar10
+# Image Classification Model on CIFAR10 Dataset
  
