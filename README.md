@@ -21,7 +21,7 @@ device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
 
 ```python
-# images to cuda.tensor and normalizing values to [-1, 1] range on each one of the 3 channels(R,G,B)
+# images to tensor and normalizing values to [-1, 1] range on each one of the 3 channels(R,G,B)
 transform = transforms.Compose(
     [transforms.ToTensor(),
      transforms.Normalize((0.5, 0.5, 0.5), (0.5, 0.5, 0.5))])
@@ -342,4 +342,3 @@ for i in range(10):
     Accuracy of  ship : 70 %
     Accuracy of truck : 71 %
     
-
