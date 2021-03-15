@@ -1,4 +1,5 @@
 # Image Classification Model on CIFAR10 Dataset
+### Author: Gabriel Tardochi Salles
 ```python
 import torch
 import torch.nn as nn
