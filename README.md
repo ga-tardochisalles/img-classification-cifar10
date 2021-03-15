@@ -226,7 +226,7 @@ print('Finished Training')
       Train loss: 0.22185621606528527
     Valid loss: 0.2877337634563446
     Early stopping on epoch 4
-    Finished Training
+    Finished Training, Best Model Saved
     
 
 
